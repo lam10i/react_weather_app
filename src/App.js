@@ -32,7 +32,7 @@ function App() {
         setShowWeather(true);
       }
     } catch (err) {
-      console.error("Error fetching weather data:", err);
+      console.error("Can not fetch weather data:", err);
       setError(true);
     }
   };
